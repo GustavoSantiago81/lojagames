@@ -1,13 +1,13 @@
-package org.generation.lojagames.ProdutoController;
+package org.generation.lojagames.controller;
 
 import java.util.List;
 import java.util.Optional;
 
 import javax.validation.Valid;
 
-import org.generation.lojagames.ProdutoRepository.CategoriaRepository;
-import org.generation.lojagames.ProdutoRepository.ProdutoRepository;
 import org.generation.lojagames.model.Produto;
+import org.generation.lojagames.repository.CategoriaRepository;
+import org.generation.lojagames.repository.ProdutoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

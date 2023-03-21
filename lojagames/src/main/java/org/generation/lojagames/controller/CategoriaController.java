@@ -1,12 +1,12 @@
-package org.generation.lojagames.ProdutoController;
+package org.generation.lojagames.controller;
 
 import java.util.List;
 import java.util.Optional;
 
 import javax.validation.Valid;
 
-import org.generation.lojagames.ProdutoRepository.CategoriaRepository;
 import org.generation.lojagames.model.Categoria;
+import org.generation.lojagames.repository.CategoriaRepository;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
