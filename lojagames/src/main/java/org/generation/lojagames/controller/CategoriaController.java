@@ -7,6 +7,7 @@ import javax.validation.Valid;
 
 import org.generation.lojagames.model.Categoria;
 import org.generation.lojagames.repository.CategoriaRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -25,6 +26,7 @@ import org.springframework.web.server.ResponseStatusException;
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 public class CategoriaController {
 
+	@Autowired
 	private CategoriaRepository categoriaRepository;
 	
 	@GetMapping
